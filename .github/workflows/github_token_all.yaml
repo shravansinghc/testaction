@@ -1,0 +1,8 @@
+name: Token permission Workflow
+
+on: push
+permissions: read-all
+
+jobs:
+  stale:
+   runs-on: ubuntu-latest
