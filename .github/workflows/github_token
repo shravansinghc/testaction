@@ -1,6 +1,4 @@
-name: Gitub permission
-on:  push
-permissions: read-all
+name: Token permission Workflow
 
 jobs:
   stale:
