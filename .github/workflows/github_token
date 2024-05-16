@@ -1,0 +1,14 @@
+name: Gitub permission
+on:  push
+permissions: read-all
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/stale@v5
